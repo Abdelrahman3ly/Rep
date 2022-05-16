@@ -15,7 +15,7 @@ namespace InstagramProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "MAGDY WAS HERE";
+            ViewBag.Message = "";
 
             return View();
         }
@@ -24,7 +24,7 @@ namespace InstagramProject.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            return Contact("Welcome");
         }
     }
 }
