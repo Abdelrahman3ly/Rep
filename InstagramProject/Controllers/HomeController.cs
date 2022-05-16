@@ -15,7 +15,7 @@ namespace InstagramProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "MAGDY WAS HERE";
 
             return View();
         }
